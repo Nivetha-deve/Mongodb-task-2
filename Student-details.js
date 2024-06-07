@@ -40,31 +40,31 @@
     {
       "session_id": 1,
       "user_id": 1,
-      "date": "2020-10-01T00:00:00Z",
+      "date": new Date("2020-10-19"),
       "problem_solved": "5"
     },
     {
       "session_id": 2,
       "user_id": 2,
-      "date": "2020-10-05T00:00:00Z",
+      "date": new Date("2020-10-08"),
       "problem_solved": "10"
     },
     {
       "session_id": 3,
       "user_id": 3,
-      "date": "2020-10-20T00:00:00Z",
+      "date": new Date("2020-10-14"),
       "problem_solved": "20"
     },
     {
       "session_id": 4,
       "user_id": 4,
-      "date": "2020-10-18T00:00:00Z",
+      "date": new Date("2020-10-02"),
       "problem_solved": "9"
     },
     {
       "session_id": 5,
       "user_id": 5,
-      "date": "2020-10-28T00:00:00Z",
+      "date": new Date("2020-10-25"),
       "problem_solved": "25"
     }
   ],
@@ -72,31 +72,31 @@
     {
       "session_id": 1,
       "user_id": 1,
-      "date": "2020-10-01T00:00:00Z",
+      "date": new Date("2020-10-12"),
       "status": "present"
     },
     {
       "session_id": 2,
       "user_id": 2,
-      "date": "2020-10-05T00:00:00Z",
+      "date": new Date("2020-10-08"),
       "status": "present"
     },
     {
       "session_id": 3,
       "user_id": 3,
-      "date": "2020-10-20T00:00:00Z",
+      "date": new Date("2020-10-10"),
       "status": "absent"
     },
     {
       "session_id": 4,
       "user_id": 4,
-      "date": "2020-10-18T00:00:00Z",
+      "date": new Date("2020-10-20"),
       "status": "present"
     },
     {
       "session_id": 5,
       "user_id": 5,
-      "date": "2020-10-05T00:00:00Z",
+      "date": new Date("2020-10-22"),
       "status": "absent"
     }
   ],
@@ -105,35 +105,35 @@
       "task_id": 1,
       "user_id": 1,
       "task_description": "MongoDB assignment",
-      "due_date": "2020-10-20T00:00:00Z",
+      "due_date": new Date("2020-10-01"),
       "status": "submitted"
     },
     {
       "task_id": 2,
       "user_id": 2,
       "task_description": "sql bolt assignment",
-      "due_date": "2020-10-25T00:00:00Z",
+      "due_date": new Date("2020-10-04"),
       "status": "submitted"
     },
     {
       "task_id": 3,
       "user_id": 3,
       "task_description": "axios assignment",
-      "due_date": "2020-10-10T00:00:00Z",
+      "due_date": new Date("2020-10-23"),
       "status": "not submitted"
     },
     {
       "task_id": 4,
       "user_id": 4,
       "task_description": "router assignment",
-      "due_date": "2020-10-15T00:00:00Z",
+      "due_date": new Date("2020-10-29"),
       "status": "not submitted"
     },
     {
       "task_id": 5,
       "user_id": 5,
       "task_description": "node.js assignment",
-      "due_date": "2020-10-18T00:00:00Z",
+      "due_date": new Date("2020-10-15"),
       "status": "submitted"
     }
   ],
@@ -141,27 +141,27 @@
     {
       "drive_id": 1,
       "company_name": "NMN company",
-      "date": "2020-10-22T00:00:00Z"
+      "date": new Date("2020-10-29")
     },
     {
       "drive_id": 2,
       "company_name": "BOSH company",
-      "date": "2020-10-29T00:00:00Z"
+      "date": new Date("2020-10-24")
     },
     {
       "drive_id": 3,
       "company_name": "VVN company",
-      "date": "2020-10-13T00:00:00Z"
+      "date": new Date("2020-10-03")
     },
     {
       "drive_id": 4,
       "company_name": "MLM company",
-      "date": "2020-10-02T00:00:00Z"
+      "date": new Date("2020-10-12")
     },
     {
       "drive_id": 5,
       "company_name": "SNS company",
-      "date": "2020-10-12T00:00:00Z"
+      "date": new Date("2020-10-16")
     }
   ],
   "mentors": [
@@ -201,31 +201,31 @@
       "topic_id": 1,
       "topic_name": "Introduction to MongoDB",
       "description": "This topic covers the basics of MongoDB, including installation, basic commands, and CRUD operations.",
-      "date": "$2020-10-01T00:00:00Z"
+      "date": new Date("2020-10-22")
     },
     {
       "topic_id": 2,
       "topic_name": "Advanced MongoDB",
       "description": "This topic dives deeper into MongoDB features such as indexing, aggregation, and replication.",
-      "date": "2020-10-11T00:00:00Z"
+      "date": new Date("2020-10-19")
     },
     {
       "topic_id": 3,
       "topic_name": "JavaScript Basics",
       "description": "An introductory topic covering the basics of JavaScript, including variables, loops, and functions.",
-      "date": "2020-10-20T00:00:00Z"
+      "date": new Date("2020-10-09")
     },
     {
       "topic_id": 4,
       "topic_name": "Node.js Fundamentals",
       "description": "This topic introduces Node.js, explaining its core concepts, including modules, events, and file system interaction.",
-      "date": "2020-10-25T00:00:00Z"
+      "date": new Date("2020-10-25")
     },
     {
       "topic_id": 5,
       "topic_name": "Express.js Basics",
       "description": "A beginner's guide to Express.js, covering routing, middleware, and building simple web applications.",
-      "date": "2020-10-03T00:00:00Z"
+      "date": new Date("2020-10-05")
     }
   ]
 }
